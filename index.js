@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://task-management-pi08.onrender.com",
   })
 );
 
