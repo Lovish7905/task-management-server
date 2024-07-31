@@ -219,7 +219,7 @@ app.put("/tasks/:id", async (req, res) => {
   });
 });
 // listenting server at port 4000
-app.listen(process.env.PORT_NUMBER || 4000, (err) => {
+app.listen(process.env.PORT_NUMBER , (err) => {
   if (err) {
     console.log("Some error while starting server: Error = " + err);
   }
